@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- The board will be constructed here -->
+        <div class="ludo-board">
+            <!-- Bases -->
+            <div class="base blue-base" id="base-blue">
+                <div class="base-inner">
+                    <!-- Tokens will be placed here -->
+                </div>
+            </div>
+            <div class="base green-base" id="base-green">
+                <div class="base-inner"></div>
+            </div>
+            <div class="base red-base" id="base-red">
+                <div class="base-inner"></div>
+            </div>
+            <div class="base yellow-base" id="base-yellow">
+                <div class="base-inner"></div>
+            </div>
+
+            <!-- The Grid Path will be generated or hardcoded here -->
+            <div class="home-triangle"></div>
+        </div>
+
+        <!-- UI Elements -->
+        <div id="dice-container" class="dice-container">
+            <div id="dice" class="dice">Start</div>
+        </div>
+        <div id="status-message">Blue's Turn</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
