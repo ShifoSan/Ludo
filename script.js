@@ -142,7 +142,7 @@ function createTokens() {
 createTokens();
 
 // Game State & Coordinate Logic
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 
 // Generate Main Path Coordinates (0-51)
 const COORDINATES_MAP = [];
